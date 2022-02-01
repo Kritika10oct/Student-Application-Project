@@ -24,6 +24,7 @@ public class studentController {
 	studentRepo Repo;
 	
 	//Here We are adding a data and return the data whatever we are add it
+	
 	@GetMapping("/get")
 	public Student getdata() {
 		Student s1=new Student();
